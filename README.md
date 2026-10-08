@@ -71,22 +71,20 @@ Khi phát hiện double click, hàm btnDoubleClick() được gọi để chuy�
         - Single click → LED bật/tắt.
         - Double click → LED nhấp nháy với thời gian 200ms.
         - Long press → không còn kích hoạt chế độ nhấp nháy.
-Git và GitHub
 
-Khởi tạo Git repository cho dự án bằng:
+## Cách dùng git/github
 
-git init
 
-Thêm các file vào Git:
+    - Khởi tạo Git repository cho dự án bằng
+        git init
 
-git add .
+    - Thêm các file vào Git
+        git add .
 
-Tạo commit:
+    - Tạo commit:
+        git commit -m "Modify LED control to use double click"
 
-git commit -m "Modify LED control to use double click"
-
-Sau đó tạo repository Public trên GitHub và push mã nguồn lên repository:
-
-git remote add origin <https://github.com/thanhdatphan263/thanhdat>
-git branch -M main
-git push -u origin main
+    - Sau đó tạo repository Public trên GitHub và push mã nguồn lên repository
+        git remote add origin <https://github.com/thanhdatphan263/thanhdat>
+        git branch -M main
+        git push -u origin main
