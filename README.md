@@ -1,4 +1,4 @@
-#### **Platform IO: OneButton Library Demo**
+#### **Platform IO Demo**
 
 ### **By Phan Thành Đạt**
 
@@ -27,12 +27,12 @@ Chương trình sử dụng thư viện OneButton để xử lý thao tác nhấ
 Các chức năng của chương trình:
 
         - Bấm nút một lần (single click) để bật/tắt LED (đảo trạng thái).
-        - Bấm nút hai lần liên tiếp (double click) để LED chuyển sang trạng thái nhấp nháy liên tục         (blink 200ms một lần).
+        - Bấm nút hai lần liên tiếp (double click) để LED chuyển sang trạng thái nhấp nháy liên tục (blink 200ms một lần).
         - Chức năng nhấn giữ (long press) không còn được sử dụng để điều khiển LED nhấp nháy.
         - Sử dụng thư viện OneButton để nhận diện và khử rung phím bấm.
 Thay đổi so với chương trình ban đầu
 
-        - Trong chương trình ban đầu, thao tác nhấn giữ được sử dụng để chuyển LED sang trạng thái nhấp     nháy:
+        - Trong chương trình ban đầu, thao tác nhấn giữ được sử dụng để chuyển LED sang trạng thái nhấp nháy:
 
                 button.attachLongPressStart(btnHold);
 
